@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 1em 1em 1em 1em;
+}
+.bar{
+    color: #0d1c29;
+    /* position: relative; */
+    margin: 2em;
+}
+
+.footer {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 7em;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-menu li {
+    margin: 1em 2em;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #0d1c29;
+    font-size: 1em;
+}
+
+.footer-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-buttons a {
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: 1em 0 0 0 ;
+    border-radius: 8px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.sign-in {
+    color: #0d1c29;
+    border: 1px solid #0d1c29;
+}
+
+.create-account {
+    background-color: #0d1c29;
+    color: #fff;
+}
